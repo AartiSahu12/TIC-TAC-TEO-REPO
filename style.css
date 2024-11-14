@@ -1,0 +1,103 @@
+/* 
+.box {
+    color: blue;
+    height: 100px;
+    width:100px ;
+    border: 2px solid green;
+    background-color: skyblue;
+    margin: 2px;
+    text-align: center;
+}
+#box {
+    color: slateblue;
+    height: 200px;
+    width: 100px;
+    border: 2px solid green;
+    background-color: skyblue;
+    margin: 2px;
+    text-align: center;
+}
+.para{
+    color:palevioletred;
+}
+.newClass{
+background-color: aqua;
+} */
+
+/* div{
+    background-color: skyblue;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border: 1 px solid black;
+}
+
+.dark{
+    background-color: blueviolet;
+    color: brown;
+}
+.light{
+    background-color: pink;
+    color: white;
+} */
+body{
+    background-color:cadetblue;
+    text-align: center;
+}
+.container{
+height: 70vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1.5mm;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5mm;
+    
+}
+.box1{
+    height: 18vmin;
+    width: 18vmin;
+    color:black;
+    border-radius:1rem ;
+    border: none;
+    font-size: 5vmin;
+    background-color: beige;
+
+}
+#resetbtn{
+    background-color: blueviolet;
+    height: 5vmin;
+    width: 10vmin;
+}
+#newbtn {
+    background-color: blueviolet;
+    height: 5vmin;
+    width: 10vmin;
+}
+
+.msg-container{
+    height: 30vmin;
+}
+#msg{
+color: green;
+font-size: 8vmin;
+} 
+
+.hide{
+display: none;
+}
+
+.colorO{
+    background-color: red;
+}
+.colorX{
+    background-color: blue;
+}
